@@ -131,16 +131,21 @@
     
   <div class="container-fluid text-center" id="contact">
   <H3>CONTACT US </H3>
-  <form class="myform">
+  <form class="contact" action="" method="get"> 
     <div class="contactus">
-      <input type="text" class="form-control" id="nme" placeholder="Name">
-      <input type="email" class="form-control" id="email" placeholder="Email">
+      <input type="text" id="name" value="" class="form-control" placeholder="Name...">
+      <input type="email" id="email" value="" class="form-control" placeholder="Email...">
     </div>
     <div class="message">
-      <input type="text" class="form-control" id="nme" placeholder="Your message here...">
+      <textarea class="form-control" name="MESSAGE" id="message" rows="10" value="" placeholder="Your message here..."></textarea>
     </div>
+    <div class="mybtn">
+      <button type="submit" class="btn btn-primary" onclick="myFunction()" value="submit">Submit</button>
+    </div> 
   </div>
+  
   </form> 
+  
   <footer class="container-fluid text-center">
     <ul class="social">
       <li><img src="/assets/social_icons/behance.png" alt=""></li>
