@@ -31,14 +31,11 @@
 * CSS 
 ## Behaviour Driven Development
 1. Displays Form For Entering Date and Gender
-INPUT: "User's birth date Entered"
-INPUT: "User's birth month Entered"
-INPUT: "User's year of birth Entered"
-INPUT: "User's Gender Entered"
-OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
-2. Displays an Error Message if Day or Month Input is invalid
-INPUT: ""
-OUTPUT: "Displays Error Message"
+INPUT: "User's name entered"
+INPUT: "User's email entered"
+INPUT: "message entered"
+OUTPUT: "Pops up confirmation message"
+
 
 ## Known Bugs
 There are no known bugs 
