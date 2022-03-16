@@ -1,0 +1,108 @@
+
+#page1{
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    height: 120vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-top: 35vh;
+}
+.mousec{
+    padding-top: 9.5%;
+}
+h1{
+    line-height: 1.8;
+    padding-top: 0.5%;
+
+}
+
+#page3{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 10%;
+    padding-top: 15vh;
+    height: 50vh;
+}
+#about h3{
+    padding-bottom: 2% ;
+    padding-top: 4%;
+
+
+}
+#work {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio{
+    max-width: 80%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+.card{
+    padding-bottom: 3%;
+}
+.work-heading {
+    display: none;
+    border-style: solid;
+    border-color:white;
+    background-color: rgb(44, 44, 44, 0.5);
+    color:white;
+    height: 100%;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contact{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 75vh;
+    color: white;
+    
+}
+#contact h3{
+    padding-top: 2%;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.contactus input{
+    width: 35%;
+    height: 5%;
+    background-color: transparent;
+   
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+#message{
+    background-color: transparent;
+    width: 72%;
+    height: 35vh;
+}
+.mybtn{
+    float: left;
+    padding-left: 14%;
+    padding-top: 3%;
+}
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+}
+.social li{
+    padding-left: 20px;
+}
