@@ -14,13 +14,13 @@ h1{
 }
 
 #page3{
-background-image: url(/assets/backgrounds/s_image.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-color: white;
-margin-top: 60px;
-padding-top: 15vh;
-height: 50vh;
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 60px;
+    padding-top: 15vh;
+    height: 50vh;
 }
 #work {
     display: flex;
@@ -56,35 +56,38 @@ height: 50vh;
     background-size: cover;
     height: 70vh;
     color: white;
+    
 }
-#contact H3{
+#contact h3{
     padding-top: 25px;
 }
-.myform input{
-     background-color: transparent;
-     
-}
+
 .contactus{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px;
-
-
 }
 .contactus input{
     width: 35%;
     height: 5%;
+    background-color: transparent;
    
 }
 .message{
     display: flex;
     justify-content: center;
 }
-.message input{
+#message{
+    background-color: transparent;
     width: 72%;
     height: 35vh;
     padding-top: 1px;
+}
+.mybtn{
+    float: left;
+    padding-left: 14%;
+    padding-top: 3%;
 }
 .social{
     list-style: none;
